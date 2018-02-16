@@ -1,0 +1,101 @@
+<style>
+    h2{
+        font-family: cursive;
+        font-size: 30px;
+        color:cornflowerblue;
+        margin-top: -5px;
+    }
+    body{
+        background:cornsilk;
+        color: midnightblue;
+        font-family:monospace;
+        font-size: 16px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .form{
+        border: 2px solid black;
+    }
+    #jump{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 16px;
+        font-family: monospace;
+    }
+    img{
+        width: 70px;
+        height: 90px;
+    }
+    #t1{
+       width: 300px;
+        height: 25px;
+        font-family: cursive;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+      #t2{
+       width: 274px;
+        height: 25px;
+        font-family: cursive;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #text3{
+      width: 310px;  
+        height: 100px;
+        font-family: cursive;
+    }
+    #menn{
+        height: 200px;
+        width: 200px;
+    }
+    #last{
+        height: 5%;
+        width: 5%;
+        border: 2px solid black;
+    }
+</style>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAF Application Form</title>
+    </head>
+    <body>
+        <form class="form">  
+            <fieldset>
+            <center>
+                <img src="img/(arts_help)12338756_1732048170357438_1357393257_n.jpg" alt="NAF logo">
+                <h2>APPLICATION FORM</h2>
+            </center>
+            <a href="Count.html" alt="Body">Body</a><br>
+            <marquee id="jump" bgcolor="white" loop="10" scrollamount="10" width="100%">Ensure to fill in all details</marquee>
+            <label>First-Name:</label><input id="t1" type="text" name="fname" placeholder="Enter Your First Name"><br>
+            Last-Name: <input type="text" name="lname" placeholder="Enter Your Last Name" id="t1"><br>
+            Phone Number: <input type="number" name="phone" placeholder="Enter Your Phone Number" id="t2"><br><hr>
+            <label>Sex</label>
+            <input type="radio" name="sex">Male
+            <input type="radio" name="sex">Female<br><hr>
+            Hobbies
+            <input type="checkbox" name="hobbies">Football
+            <input type="checkbox" name="hobbies">Swimming
+            <input type="checkbox" name="hobbies">Singing
+            <input type="checkbox" name="hobbies">Travelling
+            <input type="checkbox" name="hobbies">Watching Film<br><hr><br>
+            Address:<textarea id="text3" ></textarea><br><br>
+            State of Origin: <select id="t1">
+                <option>Select your state</option>
+                <option>Lagos</option>
+                <option>Adamawa</option>
+                <option>Lagos</option>
+            </select>
+                <hr>
+                <video id="menn" controls src="img/Alternate%20Sound%20Official%20%E2%99%A0%EF%B8%8F%20(@alternatesound)%20%E2%80%A2%20Instagram%20photos%20and%20videos%5Bvia%20torchbrowser.com%5D.mp4" > </video>
+                <hr>
+            <input type="submit" name="submit" id="last">
+            <input type="reset" name="clear" value="Refresh" id="last"> 
+            </fieldset>
+        </form>
+    </body>
+</html>
